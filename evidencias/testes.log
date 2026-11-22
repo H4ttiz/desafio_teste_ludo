@@ -1,0 +1,38 @@
+
+> desafio_teste_ludo@1.0.0 coverage
+> node --test --experimental-test-coverage
+
+✔ CT01 - dois jogadores iniciam com quatro pecas na base (0.679417ms)
+✔ CT02 - somente seis retira uma peca da base e concede outra jogada (0.182458ms)
+✔ CT03 - dado invalido e jogador fora da vez nao alteram estado (0.183417ms)
+✔ CT04 - precisa lancar antes de mover e nao pode lancar duas vezes (0.059875ms)
+✔ CT05 - movimento comum avanca e alterna a vez (0.057ms)
+✔ CT06 - terceiro seis consecutivo perde a vez sem mover (0.05075ms)
+✔ CT07 - duas pecas formam barreira e impedem terceira na mesma casa (0.067542ms)
+✔ CT08 - captura adversario em casa nao segura e devolve a base (0.088ms)
+✔ CT09 - casa segura permite coexistencia sem captura (0.123417ms)
+✔ CT10 - chegada exige valor exato e nao permite ultrapassar 57 (0.400042ms)
+✔ CT11 - consulta retorna copia independente (0.061958ms)
+✔ CT12 - quatro pecas na chegada vencem e bloqueiam novas acoes (0.233416ms)
+✔ CT13 - barreira propria bloqueia atravessar a casa (0.080083ms)
+✔ CT14 - captura com dado diferente de seis nao concede jogada extra (0.052542ms)
+✔ CT15 - conclusao de peca com dado diferente de seis nao concede extra (0.05375ms)
+✔ CT16 - defasagem de 26 entre entradas: pos relativa 30 de J0 colide com pos 4 de J1 (0.06325ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 39.436708
+ℹ start of coverage report
+ℹ ----------------------------------------------------------
+ℹ file      | line % | branch % | funcs % | uncovered lines
+ℹ ----------------------------------------------------------
+ℹ src       |        |          |         | 
+ℹ  ludo.js  | 100.00 |    98.53 |  100.00 | 
+ℹ ----------------------------------------------------------
+ℹ all files | 100.00 |    98.53 |  100.00 | 
+ℹ ----------------------------------------------------------
+ℹ end of coverage report
